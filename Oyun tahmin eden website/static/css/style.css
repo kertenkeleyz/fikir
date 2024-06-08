@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: hsl(0, 0%, 100%); /* Web sayfasının arka plan rengi */
+    color: #000000; /* Metin rengi */
+    font-size: 23px;
+  
+}
+.centered {
+    text-align: center; /* Metni yatay olarak ortalar */
+}
+h1 {
+    color: #ec2207; /* Başlık rengi */
+    font-size: 53px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    padding: 65px 465px;
+    text-align: center
+}
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Üst menü stili */
+header {
+    background-color: #333;
+    height: 80px; /* Çubuğun yüksekliğini ayarlar */
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 60px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    
+}

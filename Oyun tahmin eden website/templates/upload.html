@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahmininiz</title>
+    <style>
+        img {
+
+            max-width: 800px;
+            max-height: 800px;
+            width: auto;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    {%block content%}
+    <img src="static\img\Oyun tahmin.png" width="100px"/>
+    <h1> Atdığın görüntü şu oyuna ait: {{oyun_adi}}</h1>
+    <img src={{file_path}}/>
+    {%if oyun_adi=="Roblox"%}
+    <a href="https://www.roblox.com/home"> Roblox'sun resmi websitesi </a>
+    {%elif oyun_adi=="Minecraft"%}
+    <a href="https://www.minecraft.net/tr-tr"> Minecraft'ın resmi websitesi </a>
+    {%elif oyun_adi=="Valorant"%}
+    <a href="https://playvalorant.com/tr-tr/?gad_source=1&gclid=CjwKCAjwjeuyBhBuEiwAJ3vuoS8F5SjYHsAy23l36TJrHWrtyuw9M6Hm1Rs9CQcapLZBnIYPYxEOhxoC1ZkQAvD_BwE&gclsrc=aw.ds"> Valorant'ın resmi websitesi </a>
+    {%elif oyun_adi=="League of Legends"%}
+    <a href="https://www.leagueoflegends.com/tr-tr/"> legends of legends'ın resmi websitesi </a>
+    {%elif oyun_adi=="Fortnite"%}
+    <a href="https://www.fortnite.com/"> Fortnite'tın resmi websitesi </a>
+    {%endif%}
+    {%endblock%}
+</body>
+<head>
+    
+
+</html>

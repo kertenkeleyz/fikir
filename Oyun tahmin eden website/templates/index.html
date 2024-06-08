@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tarayıcıda görünecek sekmenin adı</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üst Menü Örneği</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+    <header>
+        <img src="../static/img/Oyun tahmin.png" width="150px"/>
+        
+    </header>
+    <h1>OYUN TAHMİN EDİCİ!</h1>
+    <p class="centered">Adını bilmediğin bir oyun fotorafını koy adını bulayım!</p>
+    <div class="centered">
+        <form method="POST" action="/upload" enctype="multipart/form-data" >
+        <input type="file" name="file"" value="Tahmin et"/>
+        <input type="submit" value="Tahmin et" />
+    </form>
+</div> 
+
+</body>
+</html>
